@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// route beranda
+// route view
 Route::get('beranda', function () {
     $html = "<h1>Nasywa</h1>";
     return view('beranda', compact('html'));
@@ -29,3 +29,12 @@ route::get('latihan-controller',[MyController::class,'latihan']);
 
 // route Mycontroller biodata
 route::get('biodata',[MyController::class,'biodata']);
+
+
+Route::get('bio', [MyController::class, 'bio']);
+
+Route::get('barang', [MyController::class, 'barang']);
+Route::get('pembelian', [MyController::class, 'pembelian']);
+Route::get('pesanan', [MyController::class, 'pesanan']);
+Route::get('suplier', [MyController::class, 'suplier']);
+Route::get('pembeli', [MyController::class, 'pembeli']);
