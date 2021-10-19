@@ -7,11 +7,14 @@
         <title>Document</title>
     </head>
     <body>
-        <center>Data Barang</center>
-        @foreach ($barang as $data)
-        {{$data->nama}} - {{$data->jns_kelamin}} <br>
-        {{$data->alamat}} - {{$data->kode_pos}}  <br>
-        {{$data->kota}} - {{$data->tgl_lahir}}  <br>
+        <center>Data Pembeli</center>
+        @foreach ($pembeli as $data)
+        Nama : {{$data->nama}} <br>
+        Jenis Kelamin : {{$data->jns_kelamin}} <br>
+        Alamat : {{$data->alamat}} <br>
+        Kode Pos : {{$data->kode_pos}}  <br>
+        Kota : {{$data->kota}} <br>
+        Tanggal Lahir : {{$data->tgl_lahir}}  <br>
         <hr>
         @endforeach
     </body>

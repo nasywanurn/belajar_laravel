@@ -17,29 +17,29 @@ class PembelianSeeder extends Seeder
         //
         $pembelian = [
             ['nama_barang' =>'Laptop',
-             'nama_supplier' =>'',
+             'nama_supplier' =>'Rizky',
              'qty' =>10,
-             'tgl' =>'01-01-2020'
+             'tgl' =>'2020-01-01'
             ],
             ['nama_barang' =>'Laptop',
-            'nama_supplier' =>'',
+            'nama_supplier' =>'Fadli',
             'qty' =>20,
-            'tgl' =>'02-01-2020'
+            'tgl' =>'2020-02-02'
             ],
             ['nama_barang' =>'Laptop',
-            'nama_supplier' =>'',
+            'nama_supplier' =>'Fadhil',
             'qty' =>10,
-            'tgl' =>'03-01-2020'
+            'tgl' =>'2020-01-03'
             ],
             ['nama_barang' =>'Laptop',
-            'nama_supplier' =>'',
+            'nama_supplier' =>'Kia',
             'qty' =>20,
-            'tgl' =>'04-01-2020'
+            'tgl' =>'2020-03-04'
             ],
             ['nama_barang' =>'Laptop',
-            'nama_supplier' =>'',
+            'nama_supplier' =>'Dhea',
             'qty' =>10,
-            'tgl' =>'05-01-2020'
+            'tgl' =>'2020-02-06'
             ],
         ];
         DB::table('pembelians')->insert($pembelian);

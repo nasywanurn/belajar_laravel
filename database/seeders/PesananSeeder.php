@@ -19,23 +19,23 @@ class PesananSeeder extends Seeder
             ['nama_pelanggan' =>'Nana',
              'nama_barang' =>'Laptop',
              'qty' =>20,
-             'tgl_pesan' =>'01-02-2021'],
-            ['nama_pelanggan' =>'Lala',
+             'tgl_pesan' =>'2021-02-03'],
+            ['nama_pelanggan' =>'Nayla',
             'nama_barang' =>'Laptop',
             'qty' =>10,
-            'tgl_pesan' =>'02-02-2021'],
+            'tgl_pesan' =>'2021-02-09'],
             ['nama_pelanggan' =>'Lulu',
             'nama_barang' =>'',
             'qty' =>20,
-            'tgl_pesan' =>'03-02-2021'],
+            'tgl_pesan' =>'2021-02-03'],
             ['nama_pelanggan' =>'Leo',
             'nama_barang' =>'Laptop',
             'qty' =>10,
-            'tgl_pesan' =>'04-02-2021'],
+            'tgl_pesan' =>'2021-04-03'],
             ['nama_pelanggan' =>'Nadia',
             'nama_barang' =>'Laptop',
             'qty' =>20,
-            'tgl_pesan' =>'05-02-2021']
+            'tgl_pesan' =>'2021-01-05']
         ];
         DB::table('pesanans')->insert($pesanan);
     }

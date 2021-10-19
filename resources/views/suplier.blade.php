@@ -9,8 +9,10 @@
     <body>
         <center>Data Supplier</center>
         @foreach ($suplier as $data)
-        {{$data->nama}} - {{$data->kode_pos}} <br>
-        {{$data->alamat}} - {{$data->kota}}  <br>
+        Nama Supplier : {{$data->nama}} <br>
+        Kode Pos : {{$data->kode_pos}} <br>
+        Alamat : {{$data->alamat}} <br>
+        Kota : {{$data->kota}}  <br>
         <hr>
         @endforeach
     </body>

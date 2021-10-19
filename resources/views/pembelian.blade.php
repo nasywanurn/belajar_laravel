@@ -7,13 +7,11 @@
         <title>Document</title>
     </head>
     <body>
-        <center>Data Barang</center>
-        @foreach ($barang as $data)
+        <center>Data Pembelian</center>
+        @foreach ($pembelian as $data)
         Nama Barang : {{$data->nama_barang}} <br>
         Nama Supplier : {{$data->nama_supplier}} <br>
         qty : {{$data->qty}} <br>
-        kode pos : {{$data->kode_pos}}  <br>
-        kota : {{$data->kota}} <br>
         tgl : {{$data->tgl}}  <br>
         <hr>
         @endforeach

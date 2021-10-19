@@ -30,7 +30,6 @@ route::get('latihan-controller',[MyController::class,'latihan']);
 // route Mycontroller biodata
 route::get('biodata',[MyController::class,'biodata']);
 
-
 Route::get('bio', [MyController::class, 'bio']);
 
 Route::get('barang', [MyController::class, 'barang']);
