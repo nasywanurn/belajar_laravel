@@ -39,6 +39,7 @@ class MyController extends Controller
         //mengambil semua data dari model Biodata
         $barang = Barang::all();
         return view('barang', compact('barang'));
+
     }
 
     public function pembeli(){
@@ -64,5 +65,44 @@ class MyController extends Controller
         $pesanan = Pesanan::all();
         return view('pesanan', compact('pesanan'));
     }
+
+    public function showBarang($id)
+    {
+        //
+        $barang = Barang::findOrFail($id);
+        return view('showBarang', compact('barang'));
+    }
+
+    public function showPembelian($id)
+    {
+        //
+        $pembelian = Pembelian::findOrFail($id);
+        return view('showPembelian', compact('pembelian'));
+    }
+
+
+    public function showPembeli($id)
+    {
+        //
+        $pembeli = Pembeli::findOrFail($id);
+        return view('showPembeli', compact('pembeli'));
+    }
+
+    public function showPesanan($id)
+    {
+        //
+        $pesanan = Pesanan::findOrFail($id);
+        return view('showPesanan', compact('pesanan'));
+    }
+
+    public function showSuplier($id)
+    {
+        //
+        $suplier = Suplier::findOrFail($id);
+        return view('showSuplier', compact('suplier'));
+
+    }
+
+
 
 }

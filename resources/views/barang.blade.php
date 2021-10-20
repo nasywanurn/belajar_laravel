@@ -9,11 +9,11 @@
     <body>
         <center>Data Barang</center>
         @foreach ($barang as $data)
-        Nama Barang : {{$data->nama}} <br>
-        Harga Beli : {{$data->harga_beli}} <br>
-        Varian : {{$data->varian}} <br>
-        Harga Jual : {{$data->harga_jual}}  <br>
-        <hr>
+            Nama Barang : {{$data->nama}} <br>
+            Harga Beli : {{$data->harga_beli}} <br>
+            Varian : {{$data->varian}} <br>
+            Harga Jual : {{$data->harga_jual}}  <br>
+            <hr>
         @endforeach
     </body>
 </html>

@@ -8,14 +8,14 @@
     </head>
     <body>
         <center>Data Pembeli</center>
-        @foreach ($pembeli as $data)
-            Nama : {{$data->nama}} <br>
-            Jenis Kelamin : {{$data->jns_kelamin}} <br>
-            Alamat : {{$data->alamat}} <br>
-            Kode Pos : {{$data->kode_pos}}  <br>
-            Kota : {{$data->kota}} <br>
-            Tanggal Lahir : {{$data->tgl_lahir}}  <br>
+
+            Nama : {{$pembeli->nama}} <br>
+            Jenis Kelamin : {{$pembeli->jns_kelamin}} <br>
+            Alamat : {{$pembeli->alamat}} <br>
+            Kode Pos : {{$pembeli->kode_pos}}  <br>
+            Kota : {{$pembeli->kota}} <br>
+            Tanggal Lahir : {{$pembeli->tgl_lahir}}  <br>
             <hr>
-        @endforeach
+
     </body>
 </html>

@@ -8,13 +8,12 @@
     </head>
     <body>
         <center>Data Supplier</center>
-        @foreach ($suplier as $data)
-            Nama Supplier : {{$data->nama}} <br>
-            Kode Pos : {{$data->kode_pos}} <br>
-            Alamat : {{$data->alamat}} <br>
-            Kota : {{$data->kota}}  <br>
+
+            Nama Supplier : {{$suplier->nama}} <br>
+            Kode Pos : {{$suplier->kode_pos}} <br>
+            Alamat : {{$suplier->alamat}} <br>
+            Kota : {{$suplier->kota}}  <br>
             <hr>
-        @endforeach
 
     </body>
 </html>

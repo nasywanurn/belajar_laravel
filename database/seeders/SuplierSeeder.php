@@ -23,7 +23,7 @@ class SuplierSeeder extends Seeder
             ['nama' =>'Fadli',
             'alamat' =>'Jakarta',
             'kode_pos' =>'112346',
-            'kota' =>''],
+            'kota' =>'Jakarta'],
             ['nama' =>'Fadhil',
              'alamat' =>'Bandung',
              'kode_pos' =>'112347',

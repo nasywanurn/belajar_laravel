@@ -9,11 +9,11 @@
     <body>
         <center>Data Pembelian</center>
         @foreach ($pembelian as $data)
-        Nama Barang : {{$data->nama_barang}} <br>
-        Nama Supplier : {{$data->nama_supplier}} <br>
-        qty : {{$data->qty}} <br>
-        tgl : {{$data->tgl}}  <br>
-        <hr>
+            Nama Barang : {{$data->nama_barang}} <br>
+            Nama Supplier : {{$data->nama_supplier}} <br>
+            qty : {{$data->qty}} <br>
+            tanggal : {{$data->tgl}}  <br>
+            <hr>
         @endforeach
     </body>
 </html>

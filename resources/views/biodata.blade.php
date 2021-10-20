@@ -9,9 +9,11 @@
     <body>
         <center>Biodata Siswa</center>
         @foreach ($bio as $data)
-        {{$data->name}} - {{$data->gender}} <br>
-        {{$data->height}} - {{$data->weight}}  <br>
-        {{$data->bornDate}}
+        Name : {{$data->name}} <br>
+        Gender : {{$data->gender}} <br>
+        Height : {{$data->height}} <br>
+        Weight : {{$data->weight}}  <br>
+        Born Date : {{$data->bornDate}} <br>
         <hr>
         @endforeach
     </body>
