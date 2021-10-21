@@ -8,12 +8,10 @@
     </head>
     <body>
         <center>Data Pesanan</center>
-
-            Nama Pelanggan : {{$pesanan->nama_pelanggan}} <br>
-            Nama Barang : {{$pesanan->nama_barang}} <br>
-            qty : {{$pesanan->qty}} <br>
-            Tanggal Pesan : {{$pesanan->tgl_pesan}}  <br>
-            <hr>
-
+        Nama Pelanggan : {{$pesanan->nama_pelanggan}} <br>
+        Nama Barang : {{$pesanan->nama_barang}} <br>
+        qty : {{$pesanan->qty}} <br>
+        Tanggal Pesan : {{$pesanan->tgl_pesan}}  <br>
+        <hr>
     </body>
 </html>

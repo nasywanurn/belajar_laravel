@@ -8,14 +8,12 @@
     </head>
     <body>
         <center>Data Pembeli</center>
-
-            Nama : {{$pembeli->nama}} <br>
-            Jenis Kelamin : {{$pembeli->jns_kelamin}} <br>
-            Alamat : {{$pembeli->alamat}} <br>
-            Kode Pos : {{$pembeli->kode_pos}}  <br>
-            Kota : {{$pembeli->kota}} <br>
-            Tanggal Lahir : {{$pembeli->tgl_lahir}}  <br>
-            <hr>
-
+        Nama : {{$pembeli->nama}} <br>
+        Jenis Kelamin : {{$pembeli->jns_kelamin}} <br>
+        Alamat : {{$pembeli->alamat}} <br>
+        Kode Pos : {{$pembeli->kode_pos}}  <br>
+        Kota : {{$pembeli->kota}} <br>
+        Tanggal Lahir : {{$pembeli->tgl_lahir}}  <br>
+        <hr>
     </body>
 </html>

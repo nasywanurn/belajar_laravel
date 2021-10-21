@@ -8,12 +8,10 @@
     </head>
     <body>
         <center>Data Supplier</center>
-
-            Nama Supplier : {{$suplier->nama}} <br>
-            Kode Pos : {{$suplier->kode_pos}} <br>
-            Alamat : {{$suplier->alamat}} <br>
-            Kota : {{$suplier->kota}}  <br>
-            <hr>
-
+        Nama Supplier : {{$suplier->nama}} <br>
+        Kode Pos : {{$suplier->kode_pos}} <br>
+        Alamat : {{$suplier->alamat}} <br>
+        Kota : {{$suplier->kota}}  <br>
+        <hr>
     </body>
 </html>

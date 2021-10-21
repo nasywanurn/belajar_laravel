@@ -8,12 +8,10 @@
     </head>
     <body>
         <center>Data Pembelian</center>
-
-            Nama Barang : {{$pembelian->nama_barang}} <br>
-            Nama Supplier : {{$pembelian->nama_supplier}} <br>
-            qty : {{$pembelian->qty}} <br>
-            tanggal : {{$pembelian->tgl}}  <br>
-            <hr>
-
+        Nama Barang : {{$pembelian->nama_barang}} <br>
+        Nama Supplier : {{$pembelian->nama_supplier}} <br>
+        qty : {{$pembelian->qty}} <br>
+        tanggal : {{$pembelian->tgl}}  <br>
+        <hr>
     </body>
 </html>
